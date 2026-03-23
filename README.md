@@ -15,17 +15,19 @@ Tuplas podem ser usadas para representar dados fíxos, agrupar diferentes dados 
 
 Tuplas em Haskell
 
-O tipo de uma tupla será definido pelos tipos dos seus elementos 
+O tipo de uma tupla será definido pelos tipos dos seus elementos. 
 Tuplas serão escritas entre parênteses, com o uso de vírgulas
 
 Exemplo de definição de uma tupla:
 
 (“Cândia”, 19) :: (String, Int)
+
 (True, “C”, 3,14) :: (Bool, Char, Float)
 
 Haskell apresenta algumas funções específicas para tuplas prontas, dentre elas:
 
 fst (First), que retorna o primeiro elemento da tupla
+
 snd (Second), que retorna o segundo elemento da tupla
 
 Tuplas em Python
